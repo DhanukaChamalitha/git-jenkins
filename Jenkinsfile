@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage("Hello") {
             steps {
-                bat "Hello git"
+                bat "echo Hello git"
             }
         }
     }
