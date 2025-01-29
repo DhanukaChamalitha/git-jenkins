@@ -3,7 +3,7 @@ pipeline {
 
     stages {
         stage("Hello") {
-            step {
+            steps {
                 bat "Hello git"
             }
         }
